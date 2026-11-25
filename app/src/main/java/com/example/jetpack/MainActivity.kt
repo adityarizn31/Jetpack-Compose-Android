@@ -61,6 +61,11 @@ class MainActivity : ComponentActivity() {
                 MyLazzyColumn(
                     modifier = Modifier.padding(innerPadding)
                 )
+
+                // Materi 6
+                MyLazzyRow(
+                    modifier = Modifier.padding(innerPadding)
+                )
             }
         }
     }
